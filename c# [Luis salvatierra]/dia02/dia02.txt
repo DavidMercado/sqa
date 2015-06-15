@@ -1,0 +1,6 @@
+LUIS A. SALVATIERRA [luis.salvatierra@jalasoft.com]
+	TAREA>
+	Correr el hola mundo
+
+	GUIA>
+	http://ayudasprogramacionweb.blogspot.com/2012/12/compilar-y-ejecutar-c-sharp-desde-sublime-text.html

@@ -1,0 +1,6 @@
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.exe.config
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.exe
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.pdb
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.csprojResolveAssemblyReference.cache
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.exe
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.pdb

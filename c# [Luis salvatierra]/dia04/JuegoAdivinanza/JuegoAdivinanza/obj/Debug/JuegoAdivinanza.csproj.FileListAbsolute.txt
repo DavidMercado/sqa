@@ -1,0 +1,6 @@
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\JuegoAdivinanza\JuegoAdivinanza\bin\Debug\JuegoAdivinanza.exe.config
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\JuegoAdivinanza\JuegoAdivinanza\bin\Debug\JuegoAdivinanza.exe
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\JuegoAdivinanza\JuegoAdivinanza\bin\Debug\JuegoAdivinanza.pdb
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\JuegoAdivinanza\JuegoAdivinanza\obj\Debug\JuegoAdivinanza.csprojResolveAssemblyReference.cache
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\JuegoAdivinanza\JuegoAdivinanza\obj\Debug\JuegoAdivinanza.exe
+c:\users\jhasmanyquiroz\documents\visual studio 2013\Projects\JuegoAdivinanza\JuegoAdivinanza\obj\Debug\JuegoAdivinanza.pdb

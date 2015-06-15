@@ -1,0 +1,22 @@
+C# TIPOS DE DATOS
+	1. Tipos de valor
+	Son los tipos primitivos [integer, string, etc]. Se pasan los valores>
+	int a>2, int b>a, b>3, Con ...(a)-->2, Con ...(b)-->3
+
+	2. Tipos de referencia
+	Son los tipos creados, los array. Y los parametros se pasan x referencia
+	no por valor.
+	Person p>new Person(){name>Pedro}
+	Person q>new Person(){name>Quin}
+	y.name>raul, y>p, Con ...(y.name) --->raul, x.name>"x", Con ...(y.name)-->x
+
+	3. Tipos Implicitos [var]
+	var name>"Luis", --->en tiempo de compilacion??? se asigna el tipo.
+	No se asigna en atributos de la clase, ni en otro scope ni null.
+	var name>"luis",
+
+	4. Tipos anonimos
+	No podemos cambiar los valores, son de solo lectura.
+	Solo vive en el scope.
+	var v>new{Amount>108, Message>"hello"}	
+	

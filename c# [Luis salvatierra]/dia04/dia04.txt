@@ -1,0 +1,23 @@
+luis.salvatierra@jalasoft.com
+
+MODIFICADORES DE ACCESO
+	public
+	internal
+	protected
+	private
+
+OPERADORES
+
+ESTRUCTURAS DE CONTROL
+	Selection Statements
+		if, if..else, switch, case
+
+	Repetition Statements
+		while, do..while, for, foreach
+
+	Jump Statements
+		break, continue, goto, return, yield.
+
+TAREA:
+	CUANDO ES BUENO USAR O NO "break, continue"
+	REALIZAR UN PROGRAMA PARA UN JUEGO DE ADIVINANZA DE UN NUMERO
