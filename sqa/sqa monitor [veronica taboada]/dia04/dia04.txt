@@ -1,0 +1,29 @@
+SQA Monitor
+	Que queremos testear???
+
+	Como queremos testear???
+
+####################TAREA #########################
+	LEER LAS 4 TECNICAS DE BLACK BOX TESTING
+		Revisar Boundary Value Testing
+		Revisar Decision Table Testing
+
+		DUDAS, PREGUNTAS???
+		PARA QUE SIRVE
+
+	COMO ELABORAR UN TEST CASE
+
+####################################################
+
+Elaborar un Test Case [5 pasos]
+	Titulo
+	Descripcion [Que estoy esperando, del testeo que realizare]
+	Pasos [que necesito para realizar lo que estoy probando]
+	Resultados esperados [Que es lo se espera obtener]
+	Prioridad [Importancia del test case, 1 al 5 o depende]
+		1 hight
+		2 Medium
+		3 Low
+
+	Test Case Funcionales
+	Test Case No funcionales

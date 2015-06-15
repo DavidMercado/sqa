@@ -1,0 +1,4 @@
+
+PRUEBAS>
+	http://www.it.uc3m.es/tlp/materiales/es/
+	https://testingfuncional.wordpress.com/2011/03/12/%C2%BFtesting-funcional-o-pruebas-de-caja-negra/

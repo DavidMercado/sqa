@@ -1,0 +1,8 @@
+MONITOR TABOADA
+Tarea>
+	0. Que significa R2 en server 2012
+	1. Configurar la firma del correo. Nombre Apellido y qadev04.[YA]
+	2. Generar la estructura de archivos en el archivo pst.[YA]
+	https://support.office.com/es-hn/article/Usar-reglas-para-administrar-los-mensajes-de-correo-50307363-0e79-4f6a-95c0-04b922a2ff13
+	3. ISO 9126 [Iso de desarrollo de software].
+	4. Instalar Snagit. [YA]

@@ -1,0 +1,72 @@
+CICLO DE VIDA DE DESARROLLO DE SOFTWARE [SDLC]
+	"Software develop live cycle"
+Concebir la idea
+	Analisis de requerimientos
+	Disenio de requerimientoe
+	Implementacion
+	Pruebas
+	Release [lanzamiento del producto]
+Obtener el producto
+
+Metodologias: Cascada, incremental, interactivo, xp, scrum, etc.
+
+We are agree --->MAL, to be
+We are in agreement ---> Bien
+we agree, i do agree
+
+Correos:
+<eom> ---> end of message
+	No abrir el mensaje, todo esta en el subject
+
+FYI ---> For Your Information
+	reply ---> Responder solo a una persona
+	reply all ---> responder a todos
+	forward ---> Envio de este correo a otras personas
+		En el message: FYI
+
+end correos
+
+feedback: retroalimentacion
+
+HOT FIX: Parche
+Un hotfix es un paquete que puede incluir varios archivos y que sirve para resolver
+un bug especifico.
+
+TAREA:
+	SQA Y SQE
+	Reporte diarios de scrum:
+	cliente:
+		que hice ayer
+		que hare hoy
+		que problemas tengo
+	team:
+		enviar el template a todo el equipo
+
+
+	to:QADEV04
+	subject:Daily report (fecha)
+
+	fecha actual
+	name: jeqo
+	project: qadev04
+	problems seen
+	risk
+	status of the schedule
+		task assigned for today:
+		mencionar trainner y tareas
+
+		activities
+		todo lo que esta dentro el horario
+		mencionar resumen de las clases.
+
+		other activities
+		todo lo que esta fuera del horario
+
+		what is left to do???
+		delayed task
+		tareas retrasadas
+
+		news tasks
+
+		on queue
+		tareas para los siguientes dias

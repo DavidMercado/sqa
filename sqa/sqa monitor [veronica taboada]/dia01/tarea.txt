@@ -1,0 +1,53 @@
+TAREAS
+
+1. Que es un File Server
+	File Server, un sencillo servidor de archivos
+
+	Es un pequenio servidor que nos permite acceder a ficheros de un ordenador
+	de manera simple y rapida.
+
+	Se debe editar la configuracion para elegir la carpeta raiz que se compartira.
+	Luego indicar la ip del equipo y el puerto designado, para comenzar la descarga
+	de los archivos xD
+
+	Fuente>
+		http://hipertextual.com/archivo/2009/10/file-server-sencillo-servidor-de-archivos/
+
+2. Que es el User Account Control[UAC]
+	Es un componente de seguridad incluido en el S.O. cuyo objetivo es minimizar
+	el uso de privilegios de administracion por parte de los usuarios estandar. Tb
+	puede ayudar a impedir cambios no autorizados en el equipo.
+
+	FUENTE>
+	http://blogs.technet.com/b/plataformas/archive/2013/02/22/conceptos-b-225-sicos-sobre-user-account-control.aspx
+	http://windows.microsoft.com/es-es/windows/turn-user-account-control-on-off#1TC=windows-7
+
+
+3. Introduccion a los archivos de datos de outlook
+	Es un lugar de almacenamiento [donde se guardara mensajes de correo
+	electronico, el calendario, las tareas y otros elementos] que permite conservar
+	los datos en el equipo.
+
+Archivos de datos>
+	1. Archivos .ost que se usan cuando se tiene una cuenta en Exchange y se desea
+	trabajar sin conexion o cuando se usa modo de intercambio en cache.
+
+	2. Archivos .pst que se usan para cuentas pop3, imap[protocolo de correo de
+	internet] y http. Y cuando se desea crear archivos de datos antiguos o copias
+	de seguridad de las carpetas y elementos de outlook.
+
+Archivos de carpetas personales[.pst]
+	Es un archivo de outlook donde se almacenan mensajes y otros elementos del
+	equipo. Necesita conexion a internet.
+
+	Se puede indicar que outlook envie los nuevos elementos al archivo .pst
+	pero trae problemas cuando se accede desde otra maquina o desde la web.
+
+Archivos de carpetas sin conexion[.ost]
+	Cuando se usa Microsoft exchange server, los mensajes, calendario y otros
+	elementos se almacenan en el servidor. Pero se puede indicar que se realice una
+	copia local en el equipo. Esto permite trabajar sin conexion y cuando recupera
+	la conexion sincroniza con el exchange server.
+
+Fuente>
+	https://support.office.com/es-hn/article/Introducci%C3%B3n-a-los-archivos-de-datos-de-Outlook-6ce39c04-ebd5-42ec-8b7e-b0567426f577?ui=es-ES&rs=es-HN&ad=HN

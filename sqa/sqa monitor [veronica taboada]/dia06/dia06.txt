@@ -1,0 +1,78 @@
+TEST CASES
+	Requerimientos funcionales - Funciona que el user/client espera que realice
+		el programa [Funcionalidades del sistema].
+	Requerimientos no funcionales - Aspectos tecnicos, performance, so, escalabilidad
+
+	POR LO TANTO en base a estos se generan los USER STORIES
+		Title - Como, necesito y Para.
+		Description
+		Criterios de aceptacion [aceptance criteria]
+			Que cosas minima debe cumplir esta historia de usuario
+
+		Como - Becario de la fundacion jala.
+		Necesito - poder acceder a ver mis notas.
+		Para - saber el estado actual de las mismas.
+
+		DESCRIPCION El becario poder acceder a una paantalla
+			siempre y cuando sus credencias esten activos
+
+		CRITERIOS DE ACEPTACION
+			Listado por materia con nota literal y numeral
+			Listado de estos solo si el becario
+
+		INPUT --------------|	|||||	| -----> OUTPUT
+
+					TEST CASES
+
+	EN BASE A ESTO, SE MANEJAN TECNICAS PARA GENERAR LOS TEST CASES, QUE NOS INDICAN
+	QUE ES LO QUE DEBEMOS TESTEAR Y COMO.
+
+TECNICAS
+	1. EQUIVALENCE CLASS [Armar conjuntos]
+		Generan conjuntos de valores
+		Input entre 1 - 99
+
+		<1	No |
+		>99 	No |--> 3 Test Cases
+		1-99	Si |
+
+	Example: Que nos pregunten sobre eliminar un archivo [Y/N]
+		Conjunto - 2 [Y y todo lo demas que lo toma como N]
+
+	Example: Impresion de 15 hojas
+		boundary o equivalence???
+		Boundary para probar los limites entre 1 y 15 y mas alla
+
+	Example: Cuando es un triangulo???
+		Equivalencia - 2: que se 180 y cuando se excede. NOOOOO
+				3: Si es menor, si es igual y si esta en el rango
+			Boundary no se maneja en este caso.
+
+	2. BOUNDARY TEXT
+		Se genera en base a los limites [superior e inferior]
+
+
+POR LO TANTO DEBEMOS HACER TEST TB DE MANERA GENERAL Y ESPECIFICA
+
+	LOGIN PASSWORD
+	Pre condiciones - Minimo para pass 3 letras. 2 numeros y un caracter especial.
+	* Que los dos campos esten llenos
+	* Que solo uno este lleno
+	* Ambos campos esten vacion
+
+	3. VALIDATION AND VERIFICATION
+		Verificacion - Al inicio del disenio verificar el sistema
+			una vez armada la user storie
+		Validacion
+
+
+TAREA
+	RESEARCH
+	DECISION TABLE [MANIANA]
+	SCRUM Y PLANING POKER Y ESTIMACION DE TIEMPOS [MANIANA]
+	PAIRWISE TESTING VIERNES
+	INSTALACION DE EXCHANGE [SEMANA 6 Y 7]
+	EXPOSICION [APLICAR TECNICAS, TODO LO APRENDIDO]
+		TEST CASES [MOSTRAR]
+		TECNICAS [HABLAR DE ELLO]
+		HACIENDO ENFASIS EN LAS TECNICAS.

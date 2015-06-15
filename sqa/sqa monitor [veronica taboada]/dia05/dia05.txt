@@ -1,0 +1,16 @@
+CUAN OBSERVADOR SOMOS???
+	Poner mas enfasis en la observacion.
+	Ser mas detallista.
+
+	Cuando nos digan que testeemos.
+	Preguntamos si es Funcionalidad, de estres, performance.
+
+	"Nosotros haremos un work around para insolution el issue"
+
+TAREA
+LEER LOS 6 PILARES DE LA ISO 9126, PARA LA SIGUIENTE SEMANA xD
+Revisas SCRUM, que es metodologia agil???
+SCRUM TRAINING SERIES
+REQUERIMIENTOS FUNCIONALES, NO FUNCIONALES
+MODELOS DEL DESARROLLO DE SOFTWARE
+USE CASES - TEST CASES
