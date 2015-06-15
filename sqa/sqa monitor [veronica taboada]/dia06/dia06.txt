@@ -9,6 +9,8 @@ TEST CASES
 		Criterios de aceptacion [aceptance criteria]
 			Que cosas minima debe cumplir esta historia de usuario
 
+		EXAMPLE:
+
 		Como - Becario de la fundacion jala.
 		Necesito - poder acceder a ver mis notas.
 		Para - saber el estado actual de las mismas.
@@ -67,11 +69,12 @@ POR LO TANTO DEBEMOS HACER TEST TB DE MANERA GENERAL Y ESPECIFICA
 
 
 TAREA
-	RESEARCH
+RESEARCH:
 	DECISION TABLE [MANIANA]
-	SCRUM Y PLANING POKER Y ESTIMACION DE TIEMPOS [MANIANA]
-	PAIRWISE TESTING VIERNES
+	SCRUM BASICS,PLANING POKER Y ESTIMACION DE TIEMPOS [MANIANA]
+	PAIRWISE TESTING [VIERNES]
 	INSTALACION DE EXCHANGE [SEMANA 6 Y 7]
+TIP:
 	EXPOSICION [APLICAR TECNICAS, TODO LO APRENDIDO]
 		TEST CASES [MOSTRAR]
 		TECNICAS [HABLAR DE ELLO]
