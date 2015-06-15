@@ -1,0 +1,56 @@
+Vladimir Marquez [PowerShell]
+	Que es???
+	Microsoft 2 columnas infraestructura [azure] y xxx [microsoft 365].
+	Todo esto genera la necesidad de automatizar el trabajo entre ambos.
+	
+	PowerShell es el encargado de automatizar todo este proceso.
+	v3 implementacion de modulos [Productos -> exchange, azure, etc]
+	
+	Es un lenguaje dinamico, interpretado y soportado por .Net no es una consola.
+	Se maneja x modo consola o IDE. Lenguaje de programacion orientado al scripting.
+	??????????????????????????????
+	
+	Intermediario entre el core de windows y las necesidades especificas del
+	programa. Todo programa de win instalar su modulo para powershell.
+
+	Comenzando con powershel
+	Verv-noun[sustantivo] ---> Commandlet [cmdlet] es singular [get-service],
+	no es case sensitive.
+
+	get-verb --> Ver todos los verbos
+	get-service -name [parametros]
+	get-command get-service[commandlet] -syntax ---> Ayuda de sintaxis
+	get-command -noun process ---> Obtener todos los comandos cuyo nombre
+		tenga process
+
+	TAREA>
+	1. Lenguaje Dinamico.
+	2. Lenguaje Interpretado
+	3. Entiendan y definan lo que es powershell
+	4. Research sobre el performance de powershell
+	5. Que es WSMan stack
+	6. Explicar WSMan, WinRM, Powershell y TrustedHost de como funciona como
+	equipo.
+
+
+	ALIASES
+	Enmascara commandlets con un alias mas corto
+		>cls ---> clear-host
+	get-alias ---> Muestra todos los alias existentes
+
+	Help System
+	Ayuda de comandos
+		get-help commandlet
+		>get-help get-service
+
+	http://hacking-etico.com/2015/05/28/port-knocking-con-powershell/
+
+	BOOKS>
+	http://www.profissionaisti.com.br/2015/04/lista-de-e-books-gratuitos-da-microsoft-windows-dynamics-powershell-system-center-e-mais/
+
+	GUIA>
+	http://www.maquinasvirtuales.eu/curso-basico-de-powershell-introduccion/
+	https://technet.microsoft.com/es-es/magazine/hh551144.aspx
+
+	CURSO TECNE>
+	http://www.microsoftvirtualacademy.com/training-courses/powershell-3-0

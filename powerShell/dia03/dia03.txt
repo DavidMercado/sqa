@@ -1,0 +1,103 @@
+PowerShell [Dia02]
+Revision de tarea:
+	WinRm y WSMan ---> Sirve para manejar Powershell remotamente
+		WinRM debe instalarse, WSMan es el encargado para manejar el
+		servicio remotamente.
+
+	TrustedHosted ---> Debe ser seteado para que la maquina pueda ser
+		conectado remotamente y se debe reiniciar el servicio.
+			Set-Item TrustedHosts *  
+			Restart-Service WinRm
+
+	http://www.computerperformance.co.uk/powershell/powershell_wsman.htm
+
+
+	QUE ES POWER SHELL
+	Es un lenguaje interpretado
+	CLR Es el nucleo de powershell que le permite ser un lenguaje interpretado
+
+	
+	SI HABLAMOS DE PERFORMANCE, ES EL DLR???
+	[Como funciona powershell estructura]
+	DLR a partir de la version 3.0 existe como una capa de cache, donde commandlets
+	ejecutados ya no necesitan ser interpretados sino que se guarda en esta capa
+	donde influye bastante en la performance de la arquitectura.
+
+	"Entender que existe capas que interactua con el core del lenguaje que sea."
+
+	
+	QUE ES WSMAN???
+	Es WebService Managment ---> Provee interoperabilidad
+	provides interoperability between management applications and managed resources,
+	and identifies a core set of web service specifications and usage requirements
+	that expose a common set of operations central to all systems management.
+	WS-Man has been adopted and published by the International Organization
+	for Standardization (ISO) as ISO/IEC 17963:2013.
+	http://www.dmtf.org/standards/wsman
+
+	Es un protocolo de estandar para comunicacion, para poder implementar recursos
+	internos que pueden ser accedidos desde la web [Recursos externos], basado en SOA.
+	DMTF institucion propuso ello.
+
+	Es servicio [libreria] desarrollado x microsoft, basado en wsman para generar
+	a powershell esos recursos.
+
+
+	COMO WSMAN, WINRM, POWERSHELL Y TRUSTEDHOST FUNCIONA COMO EQUIPO???
+	Separar por conceptos y generar el COMO.
+
+	WinRM ---> Win Remote Manager, es una implementacion que me permite gobernar
+	una maquina remotamente [administrar algo remotamente].
+
+	TRUSTEDHOST ---> Es una configuracion de WinRM que permite setear para que acceda
+	de un dominio a otro.
+
+	COMO TRABAJA EN EQUIPO
+	Ver cuaderno.
+
+
+DIAPOSITIVA ALIASES
+	>get-command *alias* ---> Buscar el comando con *alias*
+
+	>get-help new-alias ---?
+
+	QUE ES EL HELP SYSTEM
+	Un commandlet es parametrizable.
+	Sistema pensado en la autoayuda para todos los commandlets.
+	Se puede actualizar con: >update-help
+
+	Why you need help - para aprender a manejar cada commandlet.
+	Update-help - Actualiza nuestro help system desde un servidor externo.
+		>get-help update-help -parameter uiculture
+		help del idioma.
+	Discoverability with the help system -
+
+	Understanding Syntax
+	- --> indica un parametro
+	[]Argumento --> que el argumento acepta varios valores
+	<> --> indica que es un argumento
+	[parametro] Es posicional --> Indica la posicion en la que se puede
+		invocar sin su argumento:
+		>get-childitem d: commands.txt
+			Busca en el path d: con el filtro commads.txt
+			position path 1, position filter 2
+
+	CONSEJOS
+		Descubran no memoricen [help system]
+
+
+
+	TRANSCRIPT [exportar la sesion a un paper]
+	>start-transcript
+
+	>get-process notepad | wwhere -property handles -eq 92
+
+	>get-help about_*operator ---> ayuda acerca de algo
+	
+
+TAREA:
+	CREAR UN ALIAS
+	ACTUALIZAR HELP SYSTEM DESDE UN FILE
+	AVERIGUAR SOBRE COMMONPARAMENTERS
+	COMANDOS PARA TRABAJAR CON PROCESOS Y SERVICIOS
+		Hacer un ejercicio aplicado a ellos.
