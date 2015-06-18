@@ -1,0 +1,73 @@
+REVIEW OF PRACTICES
+	CLR - NUCLEO, CORE [SIMILAR A LA JVM]
+	DLR - CAPA ENCIMA DE CLR QUE INTERACTUA [ES COMO MICROSOFT SOPORTA
+		OTROS LENGUAJE COMO PYTHON, RUBY LENGUAJES DINAMICOS SOBRE LA PLATAFORMA
+		.NET]
+
+	FILTER AND WHERE-OBJECT
+		LA CLASE QUE DEFINE ESA CAPACIDAD, TE INDICA SI TIENE O NO FILTER
+		PERFORMANCE
+		
+
+BASES - SESSION 4
+	PIPELINE IN DEEP [PASAR UN PARAMETRO A UN CMDLET]
+	* parametrizar un parametro por pipeline [.csv, propertyname] y valor [txt, value]
+
+	FORMA DE PARAMETRIZAR ALGUNA PROPIEDAD EN UN VARIABLE
+	>get-services | services.txt --> GUARDO
+	>get-content -path services.txt --> MUESTRO QUE HAY
+	>$name=get-content services.txt	--> GUARDO EN UNA VAR
+	>get-service -name $name --> PARAMETRIZO
+
+	FORMA DE PARAMETRIZAR POR PIPELINE
+		VERIFICAR QUE APAREZCA:
+		[Accept pipeline input? true (ByPropertyname, ByValue)]
+
+		Con ello indica que puede ser parametrizado [value
+		y computername]
+		>"bits" | get-service
+		>"bits" | gm
+
+	EXAMPLE:
+	>get-process -name notepad, calc
+	>get-help get-process -showwindow --> muestra ayuda en ventana
+		PENDIENTE!!!
+
+	>$path=get-content -path 'C:\User\path.txt'
+	>$path
+	>'d:\','c:\users' | get-childitem
+	>$path | get-childitem
+
+	* ESPECIFICAR SIEMPRE UN PARAMETRO NO TODO EL OBJETO
+	>get-process -name calc | select-object ProcessName
+	>get-process -name calc | select-object processname | stop-process
+
+	CREAR UN  NUEVO ALIAS USANDO 'PASO DE PARAMETRO X VALOR O PIPELINE'
+	>$path=Import-csv -pspath c:\Users\alias.csv
+	>$path | new-Alias
+		alias.csv -->name, value
+				pr, get-process
+	>pr
+	
+	* INTERCAMBIAR PRIMERO value, name
+	>$path=Import-csv -pspath c:\Users\alias1.csv
+		alias.csv -->value, name
+				get-process, pr
+	>$path | new-Alias
+	>pr
+	
+
+***************************************************************************************
+TAREA:
+EN QUE LENGUAJE ESTA DESARROLLADO POWERSHELL??? C# O.o
+USO DE LOS COMMON PARAMETERS???
+	-VERBOSE
+	>update-help -verbose???
+
+
+EN UN MISMO CSV CREAR NUEVAS COLUMNAS QUE PUEDEN SER USADOS EN DISTINTOS COMMANDLETS
+*****************************************************************************************
+
+COMO SOBREESCRIBIR A PARTE DEL CLAVOR STA EN LA PRACTICA3
+
+PORQUE SI ES HECHO EN C#, SU VELOCIDAD???
