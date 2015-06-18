@@ -1,0 +1,32 @@
+ARRAY [READ] MONDAY JUNE, 15
+
+DICTIONARY [JUNE, 17]
+	Dictionary<int, string> persons = new Dictionary<int, string>;
+	persons.add<1, "Jose">;
+	persons.add<2, "Maria">;
+
+	if(persons.constainkey(1)){
+		//Valor Actualizado
+		persons[1] = "Josesito";
+		//recuperar una coleccion
+		var keysPersons=persons.keys()//devolucion de arreglos
+		var valuesPersons=persons.values();
+}
+	// en vez de keyValue... se puede usar var item in persons
+	foreach(KeyValuePair<int, string> item in persons){
+		Console.writeLine("ID : (0) - Name : (1)", item.key, item.value);
+}
+
+	// devuelve boolean si el objeto tiene ese key
+	var nuevo=otro.ConstainKey(120)
+
+
+TAREA MODELAR LAS CLASES
+	LIBRARY
+	  BOOK
+	    AUTOR
+	    CATEGORIA
+	  REPOSITORIO
+	
+	ALL-->BOOKS[], GETBYID(ID)-->BOOK
+	, REMOVE(ID)-->VOID, UPDATE(BOOK)-->VOID Y ADD(BOOK)-->VOID
