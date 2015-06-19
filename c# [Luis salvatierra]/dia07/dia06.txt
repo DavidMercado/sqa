@@ -1,0 +1,5 @@
+REVIEW WORK OF LIBRARY ON C#
+	* Algunos errores hallados
+		Crear la libreria con una lista de libros enviados
+		Que al recibir una lista de libros, el contador en la libreria
+		falla.
