@@ -1,0 +1,8 @@
+EBOOK OF POWERSHELL:
+	http://powershell.com/cs/blogs/ebookv2/default.aspx
+
+TIPS OF POWERSHELL:
+	http://powershell.com/cs/media/28/default.aspx
+
+PIPELINE:
+	http://blogs.technet.com/b/heyscriptingguy/archive/2013/03/25/learn-about-using-powershell-value-binding-by-property-name.aspx
