@@ -1,0 +1,5 @@
+REVIEW DEL TRABAJO DE LIBRERIA
+	Enum - Definicion de constantes, mapeo de enteros
+
+	public int iD {get, set} //metodos de get y set
+	book.id=nuevoId // llamando al metodo set
