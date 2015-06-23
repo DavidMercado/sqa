@@ -1,0 +1,32 @@
+1. Based on the excel resolve the following scenarios.
+
+	$newPath = Import-csv .\Inventory.csv
+
+Scenario 1: I know my data isn’t complete. Show me the hostname and rack for systems where I don’t have a location listed.
+	$newPath | select-object server, rack, location | where-object location -eq ""
+
+Scenario 2: I need to move my servers in location “loc2”, list the number of servers from that location, and the rack.
+	$newPath | select-object rack, location | where-object location -eq "loc2"
+
+Scenario 3: Similarly to scenario 2, notice that I have virtual machines listed in some racks; these must be in a physical host; show me the listing of physical and virtual servers in location “loc1”.
+	$newPath | select-object server, location, phy/virt | where-object location -eq "loc1"
+
+Scenario 4: My network team needs to make some network changes and want a list of how many hosts are per VLAN.
+	$newPath | select-object server, VLAN | group-object VLAN -noelement
+
+Scenario 5: I want a breakdown of servers by OS and 32/64-bit.
+	$newPath | select-object server, OS, 32/64 | group-object OS, 32/64 -noelement
+
+
+1. Basado en el excel resolver los siguientes escenarios.
+
+Escenario 1: Sé que mis datos no es completa. Muéstrame el nombre de host y rack para sistemas en los que no
+	tengo un lugar en la lista.
+Escenario 2: Necesito mover los servidores en la ubicación "LOC2", anote el número de servidores de ese lugar,
+	y la cremallera.
+Escenario 3: Al igual que en el escenario 2, el aviso de que tengo las máquinas virtuales que figuran en algunos
+	bastidores; éstos deben estar en un host físico; muéstrame la lista de servidores físicos y virtuales en
+	la ubicación "LOC1".
+Escenario 4: Mi equipo de la red tiene que hacer algunos cambios en la red y desea una lista de cuántos hosts
+	están por VLAN.
+Escenario 5: Quiero un desglose de los servidores de OS y 32/64-bit.

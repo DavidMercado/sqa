@@ -1,0 +1,14 @@
+Scenario 1.
+$data|where-object{$_.location -eq ""}|format-table -autosize
+
+Scenario 2
+$data|where-object{$_.location -eq "loc2"}|select-object -property location,rack|group-object -property rack|select-object -property name,count|format-table -autosize
+
+Scenario 3.
+$data|where-object{$_.location -eq "loc1"}|select-object -property location,rack,'phy/virt'|group-object -property rack,'phy/virt'|select-object -property name,count|format-table -autosize
+
+Scenario 4.
+$data|select-object -property server,vlan|group-object -property vlan
+
+Scenario 5.
+$data|select-object -property os,'32/64'|group-object -property os,'32/64'|select-object -property name,count|sort-object -property name|format-table -autosize

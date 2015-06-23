@@ -1,0 +1,26 @@
+OTHERS
+	>$pshome --> donde se encuentra ubicado powershell.
+	>Set-location $pshome --> Ir a ese lugar.
+	>notepad .\dotnettypes.format.ps1xml --> archivo de configuracion de powershell
+	>get-process | out-host
+	>get-process | fl *
+
+ABOUT THE DEFAULT FORMATTING
+	Formato tabla, lista, import, export, personalizado.
+	Formato de muestra [Visualizacion]
+	>format-custom --> Comandlet para el formato de lista
+	>get-process | fl * --> fl - formast-list *
+	>get-process -name notepad | format-table -autosize
+	//Tambien podemos elegir que mostrar en la tabla sin hacer select
+	>get-process -name notepad | ft -property id, name, responding -autosize
+	//agrupa por status
+	>get-service | ft -groupby status
+	//
+	>get-command out-*
+	//
+	>get-service | out-gridview
+	//exporta el comando a un archivo
+	>get-service -name notepad | export-clixml -path d:\ps\services.xml
+
+
+EXERCISES PARA FORMATO DE TABLA, LISTA. BUSCAR EJERCICIOS DE TODO LO VISTO [WHERE, SELECT, SORT].
